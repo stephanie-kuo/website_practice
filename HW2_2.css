@@ -1,0 +1,69 @@
+.banner{
+	height:80px;
+	padding-right: 20px;
+	background: #d25349;
+	text-align: right;
+	line-height:80px;
+	color:white;}
+.header{
+	margin:0px auto;
+	text-align: center;}
+.sidebar{
+	float: left;
+	text-align: right;
+	margin-left: 15%;
+}
+.content{
+	margin:0px auto;
+	width:760px;
+	border-left:thick solid gray;
+	padding-left:20px;
+}
+footer{
+	margin:40px;
+	text-align: center;
+	font-style: normal;
+}
+
+
+p{
+	font-family: Helvetica, sans-serif, "微軟正黑體", "儷黑 Pro"; 
+	font-size: 16px;
+	line-height: 1.6em;
+	margin:15px;
+	font-style: italic;
+	color: #a69e8d;
+}
+li{
+	font-family: Helvetica, sans-serif, "微軟正黑體", "儷黑 Pro"; 
+	font-size: 16px;
+	line-height: 1.6em;
+	margin:15px;
+}
+h1{	font-family: Helvetica, sans-serif, "微軟正黑體", "儷黑 Pro"; 
+	font-size: 36px;
+	line-height: 1em;
+	margin:15px;
+	color: #d25349;
+	font-weight: bold;}
+h2{	font-family: Helvetica, sans-serif, "微軟正黑體", "儷黑 Pro"; 
+	font-size: 30px;
+	line-height: 1em;
+	margin:15px;
+	color: #d25349;
+	font-weight: bold;}
+h3{	font-family: Helvetica, sans-serif, "微軟正黑體", "儷黑 Pro"; 
+	font-size: 20px;
+	line-height: 1.4em;
+	margin:15px;
+	color:#618393;
+	font-weight: bold;}
+a{	font-family: Helvetica, sans-serif, "微軟正黑體", "儷黑 Pro"; 
+	font-size: 16px;
+	line-height: 1.6em;
+	margin:15px;
+	text-decoration: none;
+	color:white;}
+a:hover{
+	color: rgba(80%, 80%, 80%, 0.8);
+}
