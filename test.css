@@ -1,0 +1,29 @@
+body {
+	background-image: url(999.jpg);
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.title{
+	font-family: Helvetica, sans-serif;
+	font-size:30pt;
+	color:white;
+	width: 20%;
+	height:200px;
+	text-align: center;
+	float:left;
+	margin:40px;
+	background-color: rgba(300,300,300,0.3)
+}
+.explain{
+	font-family: Helvetica, sans-serif;
+	font-size:14pt;
+	color:white;
+	width: 60%;
+	height:200px;
+	text-align: left;
+	float:left;
+	margin:40px;
+	background-color: rgba(0,0,0,0.3)
+}
