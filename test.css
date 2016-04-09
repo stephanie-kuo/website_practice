@@ -7,30 +7,33 @@ body {
 }
 .title{
 	font-family: Helvetica, sans-serif;
-	font-size:30pt;
+	overflow: auto;
 	color:white;
-	width: 20%;
-	height:200px;
+	width: 30%;
+	height:20%;
 	text-align: center;
 	float:left;
-	margin:40px;
-	background-color: rgba(300,300,300,0.3);
+	margin:5%;
+	margin-top:6%;
+	margin-right:0%;
 }
 .explain{
 	font-family: Helvetica, sans-serif;
-	font-size:14pt;
+	overflow: auto;
 	color:white;
-	width: 60%;
-	height:200px;
+	width: 50%;
+	height:180px;
 	text-align: left;
 	float:left;
-	margin:40px;
+	margin:5%;
+	margin-left:1%;
 	background-color: rgba(0,0,0,0.3)
 }
 p{
 	padding:5%;
+	font-size:1.5vw;
 }
 h3{
-	padding-top:15%;
-	padding-bottom: 15%;
+	padding:5%;
+	font-size:2.5vw;
 }
