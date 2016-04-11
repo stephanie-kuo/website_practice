@@ -13,7 +13,7 @@ body {
 	height:20%;
 	text-align: center;
 	float:left;
-	margin:5%;
+	margin:3%;
 	margin-top:6%;
 	margin-right:0%;
 }
@@ -22,10 +22,10 @@ body {
 	overflow: auto;
 	color:white;
 	width: 50%;
-	height:180px;
 	text-align: left;
-	float:left;
+	position:relative;
 	margin:5%;
+	margin-top:3%;
 	margin-left:1%;
 	background-color: rgba(0,0,0,0.3)
 }
