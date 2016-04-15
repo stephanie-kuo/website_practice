@@ -275,6 +275,16 @@ footer ul li{
 body{
   font-size: 50%;
 }
+article{
+  float: right;
+  width: 100%;
+  margin:0 auto;
+  padding:5%;
+}
+.content{
+  width: 100%;
+  margin:0 auto;
+}
 /*nav-top Dropdown*/
 .nav{
   position: relative;
@@ -282,13 +292,20 @@ body{
 }
 .navRWD{
   display: inline-block;
+  height: 20%;
+  padding:2%;
+}
+.navRWD img{
+  width: 30%;
 }
 .toggle {
   display: inline-block;
   float: right;
   background-color: white;
-  margin-bottom: 10px;
-  margin:10px;
+  margin-top:4%;
+}
+.toggle a{
+  line-height: 4vh;
 }
 .nav-top{
   display: none;
@@ -303,9 +320,11 @@ body{
 }
 .nav2{
   float:top;
+  margin:0 auto;
 }
 .nav2 a{
   margin:0;
+  padding:0;
 }
 /*nav-left Dropdown*/
 .toggle2{
@@ -315,11 +334,12 @@ body{
   border:0.7px solid #DDD;
   border-radius: 4px;
 }
+.toggle2 h2{
+  font-size: 2.5vh;
+  padding-left: 5%;
+}
 .toggle2 a{
   text-align: left;
-}
-.toggle2 h2{
-  margin:0 auto;
 }
 .nav-left{
   clear:both;
@@ -330,6 +350,7 @@ body{
 }
 .nav-left li{
   border-bottom: border:0.7px solid #DDD;
+  padding-left: 5%;
 }
 .toggle2:hover .nav-left{
   display: block;
@@ -343,12 +364,34 @@ body{
 #download .card{
   height:auto;
 }
+.bottom{
+  width:100%;
+  display: inline-block;
+  clear:both;
+  text-align: center;
+  padding:0;
+  margin-top:0;
+}
 .bottom img{
-
+  display: none;
+  margin:0 auto;
+}
+.bottom .words{
+  clear:both;
+  margin:0 auto;
+  margin-top:5%;
+  width: 100%;
+}
+.words p{
+  font-size: 2vh;
 }
 .bottom button{
   width: 100%;
   margin:0 auto;
+  margin-top:3%;
+}
+footer p{
+  font-size: 2.5vh;
 }
 footer ul li{
   clear:both;
