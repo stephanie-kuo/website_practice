@@ -108,8 +108,7 @@ header ul li{
 .nav2{
   text-align: center;
   margin:0 auto;
-  float:top;
-  margin-top: 4.8%;
+  position:relative;
 }
 .nav2 a{
   font-family: Arial, sans-serif;
