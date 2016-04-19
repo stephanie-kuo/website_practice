@@ -59,7 +59,8 @@ p{
 }
 .nav{
   display: inline-block;
-  position:fixed;
+  position:relative;
+  float:top;
   background: white;
   color:#111418;
   width:100%;
