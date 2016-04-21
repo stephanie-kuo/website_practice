@@ -59,10 +59,10 @@ p{
 }
 .nav{
   display: inline-block;
-  position:fixed;
+  position:relative;
+  float:top;
   background: white;
   color:#111418;
-  float:top;
   width:100%;
   border-bottom: 0.7px solid #DDDDDD;
 }
@@ -108,8 +108,7 @@ header ul li{
 .nav2{
   text-align: center;
   margin:0 auto;
-  float:top;
-  margin-top: 4.8%;
+  position:relative;
 }
 .nav2 a{
   font-family: Arial, sans-serif;
