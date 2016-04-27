@@ -164,7 +164,7 @@ footer img:hover{
 }
 .resume{
 	float: left;
-	margin:6.5%;
+	margin:6%;
 	margin-top: 8%;
 	text-align: left;
 }
@@ -338,6 +338,12 @@ footer img:hover{
 }
 .pop .cancel{
 	margin-right: 2%;
+}
+.contact img{
+	float: left;
+	text-align: center;
+	margin-top: 8%;
+	width: 100%;
 }
 .col-sm-1{
   width:calc(100%*1/12);
