@@ -1,0 +1,75 @@
+h1 {
+    font-size: 8vh;
+    margin: 3vh;
+}
+
+p {
+    font-size: 3vh;
+    margin: 3vh;
+}
+
+.pic>img {
+    width: 40px;
+}
+
+.pic {
+    padding-left: 3vh;
+}
+
+input {
+    margin-left: 3vh;
+}
+
+button {
+    position: relative;
+    margin: 3vh;
+}
+
+article {
+    display: flex;
+}
+
+#noFeed_bg {
+    width: 400px;
+    float: right;
+}
+
+.result {
+    width: 400px;
+}
+
+h2 {
+    font-family: 'notosanstc', "微軟正黑體", '儷黑 Pro', sans-serif;
+    font-weight: 900;
+    z-index: 3;
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Roboto', 'Helevetica', Sans-serif;
+    font-weight: 900;
+    z-index: 3;
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 20px;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+#resultEnglishName {
+    padding: 7px;
+}
+
+.animal>img {
+    width: 150px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 50px;
+    z-index: 3;
+}
