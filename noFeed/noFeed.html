@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="noFeed.css">
+    <link href="http://fonts.googleapis.com/earlyaccess/notosanstc.
+css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/earlyaccess/cwtexfangsong.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/earlyaccess/cwtexhei.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/earlyaccess/cwtexyen.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,900' rel='stylesheet' type='text/css'>
+    <title>禁止餵食產生器</title>
+    <script type="text/javascript">
+    function textOutputCN() {
+        var resultNameCN = document.getElementById("nameChinese").value;
+        document.getElementById("resultChineseName").innerHTML = "請勿餵食野生的" + resultNameCN;
+    }
+
+    function textOutputEN() {
+        var resultNameEN = document.getElementById("nameEnglish").value;
+        document.getElementById("resultEnglishName").innerHTML = "Don't feed any wild " + resultNameEN;
+
+    }
+
+    function animalSquirrel() {
+        var animal = "<img src='squirrel.png' />"
+        document.getElementById("resultAnimal").innerHTML = animal;
+
+    }
+
+    function animalDog() {
+        var animal = "<img src='dog.png' />"
+        document.getElementById("resultAnimal").innerHTML = animal;
+
+    }
+    </script>
+</head>
+
+<body>
+    <h1>禁止餵食產生器</h1>
+    <article>
+        <div class="input">
+            <div class="keyin">
+                <p>請輸入中文名字</p>
+                <input type="text" id="nameChinese" placeholder="名字/綽號">
+                <br>
+                <button type="submit" id="submit" onclick="textOutputCN()">確定</button>
+            </div>
+            <div class="keyin">
+                <p>請輸入英文名字</p>
+                <input type="text" id="nameEnglish" placeholder="English Name">
+                <br>
+                <button type="submit" id="submit" onclick="textOutputEN()">確定</button>
+            </div>
+            <div class="keyin">
+                <p>請選擇代表動物</p>
+            </div>
+            <div class="pic">
+                <img src="squirrel.png" alt="" id="squirrel" onclick="animalSquirrel()">
+                <img src="dog.png" alt="" id="dog" onclick="animalDog()">
+                <br>
+            </div>
+        </div>
+        <div class="result">
+            <img src="noFeed_bg.jpg" alt="" id="noFeed_bg">
+            <h2 id="resultChineseName"></h2>
+            <h3 id="resultEnglishName"></h3>
+            <div class="animal" id="resultAnimal"></div>
+        </div>
+    </article>
+</body>
+
+</html>
