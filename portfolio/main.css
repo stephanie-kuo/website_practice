@@ -400,7 +400,7 @@ p {
         display: inline-block;
         margin: 4%;
     }
-    .nav-top {
+     .nav-top {
         display: none;
         position: absolute;
         background-color: rgba(300, 300, 300, 0.8);
@@ -418,11 +418,17 @@ p {
     .graphic {
         margin-top: 0%;
     }
+    .box .words h2, p{
+        font-size: 4vw;
+    }
     .UI {
         margin-top: 0%;
     }
     .pop {
         text-align: center;
+    }
+    .pop>div{
+        width: 80%;
     }
     .pop .words {
         margin-top: 2%;
